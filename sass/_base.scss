@@ -1,0 +1,26 @@
+//COLORS
+$black: #000000;
+$graylight: #4f4f4f;
+$graydark: #333333;
+$orange: #f2994a;
+$graysuperlight: #bdbdbd;
+
+////////////
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #ffffff;
+}
+
+body {
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+}

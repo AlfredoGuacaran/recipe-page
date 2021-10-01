@@ -1,0 +1,44 @@
+.heading {
+  font-family: Playfair Display;
+  font-weight: 700;
+
+  &__1 {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    color: $black;
+  }
+
+  &__2 {
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    color: $graydark;
+  }
+
+  &__3 {
+    color: $graydark;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-style: italic;
+  }
+}
+.paragraph__italic {
+  font-family: Montserrat;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.7rem;
+  color: $graylight;
+}
+
+.ingredients__list--text {
+  color: $graydark;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+
+  span {
+    font-weight: 700;
+  }
+}

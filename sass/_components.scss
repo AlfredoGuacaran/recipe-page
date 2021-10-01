@@ -1,0 +1,35 @@
+.header {
+  &__name {
+    margin-bottom: 1.2rem;
+  }
+  &__icon {
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+  }
+  &__description {
+    display: flex;
+    align-items: start;
+    max-width: 60rem;
+    margin-bottom: 1.7rem;
+  }
+  &__img {
+    width: 100%;
+    max-width: 97rem;
+  }
+}
+
+.ingredients {
+  display: grid;
+  &__list {
+    &--item {
+      display: flex;
+      align-items: center;
+      gap: 1.7rem;
+    }
+
+    &--checkbox {
+      height: 1.7rem;
+      width: 1.7rem;
+    }
+  }
+}
