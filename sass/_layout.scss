@@ -1,10 +1,11 @@
 .container {
-  max-width: 144rem;
-  padding: 3rem 2rem;
+  max-width: 100rem;
+  padding: 3rem 4rem;
   display: grid;
 }
 
 .section__2 {
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
 }

@@ -18,12 +18,13 @@ body {
 }
 
 .container {
-  max-width: 144rem;
-  padding: 3rem 2rem;
+  max-width: 100rem;
+  padding: 3rem 4rem;
   display: grid;
 }
 
 .section__2 {
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -85,20 +86,68 @@ body {
 }
 .header__img {
   width: 100%;
-  max-width: 97rem;
 }
 
 .ingredients {
   display: grid;
+  gap: 3.2rem;
+}
+.ingredients .heading__3 {
+  margin-bottom: 1.2rem;
+}
+.ingredients__list *:not(:last-child) {
+  margin-bottom: 1rem;
 }
 .ingredients__list--item {
-  display: flex;
-  align-items: center;
-  gap: 1.7rem;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+  align-items: start;
 }
 .ingredients__list--checkbox {
+  margin-top: 0.5rem;
   height: 1.7rem;
-  width: 1.7rem;
+  min-width: 1.7rem;
+}
+
+.overview {
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
+  padding: 6rem 4rem 5rem 4rem;
+  border-radius: 1rem;
+  height: fit-content;
+  display: grid;
+  gap: 4rem;
+}
+.overview .orange-item {
+  color: #f2994a;
+}
+.overview__icon {
+  height: 2.5rem;
+  width: 2.7rem;
+  fill: #4f4f4f;
+  margin: auto 0;
+}
+.overview__icon-orange {
+  fill: #f2994a;
+}
+.overview__details {
+  width: max-content;
+}
+.overview__item {
+  display: flex;
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 1.2rem;
+  gap: 1rem;
+}
+.overview__title {
+  color: #bdbdbd;
+  margin-bottom: 0.5rem;
+}
+.overview__inf {
+  color: #333333;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
