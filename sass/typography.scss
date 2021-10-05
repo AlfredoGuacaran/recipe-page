@@ -6,6 +6,10 @@
     font-size: 4.8rem;
     line-height: 6.4rem;
     color: $black;
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 3.8rem;
+      line-height: 4.4rem;
+    }
   }
 
   &__2 {
