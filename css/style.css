@@ -10,6 +10,16 @@ html {
   font-size: 62.5%;
   background-color: #ffffff;
 }
+@media only screen and (max-width: 39.375em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  html {
+    font-size: 37.5%;
+  }
+}
 
 body {
   box-sizing: border-box;
@@ -21,12 +31,18 @@ body {
   max-width: 100rem;
   padding: 3rem 4rem;
   display: grid;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .section__2 {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
+}
+@media only screen and (max-width: 39.375em) {
+  .section__2 {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer {
@@ -129,8 +145,25 @@ body {
   display: grid;
   gap: 4rem;
 }
+@media only screen and (max-width: 39.375em) {
+  .overview {
+    box-shadow: none;
+    padding: 0;
+    border-radius: none;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin-bottom: 4rem;
+  }
+}
 .overview .orange-item {
   color: #f2994a;
+}
+@media only screen and (max-width: 39.375em) {
+  .overview .orange-item {
+    grid-column: 1/4;
+  }
 }
 .overview__icon {
   height: 2.5rem;

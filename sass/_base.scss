@@ -5,6 +5,11 @@ $graydark: #333333;
 $orange: #f2994a;
 $graysuperlight: #bdbdbd;
 
+//BREAKPOINTS
+
+$bp-medium: 39.375em; // 625 / 16
+$bp-small: 31.25em; // 500 / 16
+
 ////////////
 *,
 *::after,
@@ -17,6 +22,14 @@ $graysuperlight: #bdbdbd;
 html {
   font-size: 62.5%;
   background-color: #ffffff;
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 37.5%;
+  }
 }
 
 body {
